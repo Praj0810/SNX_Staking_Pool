@@ -1,0 +1,49 @@
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: aqua;
+}
+
+.cardContainer .card {
+    height: 400px;
+    width: 500px;
+    margin-top: -70px;
+    background-color: white;
+}
+
+.cardContainer .btn.btn-primary {
+    float: right;
+    margin-top: 40px;
+    margin-right: 12px;
+    color: aqua;
+    background-color: black;
+}
+.btn.btn-primary {
+    background-color: black;
+    color: aqua;
+}
+
+.headDetails{
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+
+.textDetails{
+    font-style:normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.UserStake{
+    font-style:normal;
+    margin-top: 100px;
+}
+
+.UserEarned{
+    font-style:normal;
+    margin-top: 20px;
+}
